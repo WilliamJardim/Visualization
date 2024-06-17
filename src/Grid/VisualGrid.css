@@ -1,0 +1,64 @@
+/*
+ * File Name: VisualGrid.css
+ * Author Name: William Alves Jardim
+ * Author Email: williamalvesjardim@gmail.com
+ * 
+ * LICENSE: WilliamJardim/Visualization © 2024 by William Alves Jardim is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/**
+*/
+
+:root{
+    --mygrid-bg-color: white;
+    --mygrid-header-bg-color: rgb(163, 163, 163);
+    --mygrid-bg-row-color: orange;
+    --mygrid-bg-column-color: yellow;
+    --mygrid-bg-first-column-color: orange;
+    --mygrid-header-bg-column-color: rgb(99, 99, 0);
+    --mygrid-foreground-color: black;
+}
+
+.MyGrid-container{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.MyGrid-title{
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: grey;
+}
+
+.MyGrid-table{
+    width: 100%;
+    table-layout: fixed;
+    justify-self: center;
+    align-self: center;
+    background-color: var(--mygrid-bg-color);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.MyGrid-header-row{
+    width: 100%;
+    background-color: var(--mygrid-header-bg-color);
+}
+
+.MyGrid-row{
+    width: 100%;
+    background-color: var(--mygrid-bg-row-color);
+}
+
+.MyGrid-column{
+    background-color: var(--mygrid-bg-column-color);
+    border: solid 0.05px black;
+}
+
+.MyGrid-header-row .MyGrid-column{
+    background-color: var(--mygrid-header-bg-column-color);
+}
+
+.MyGrid-first-column{
+    background-color: var(--mygrid-bg-first-column-color);
+}

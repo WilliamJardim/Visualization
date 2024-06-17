@@ -1,0 +1,221 @@
+/*
+ * File Name: GraficoBarras.css
+ * Author Name: William Alves Jardim
+ * Author Email: williamalvesjardim@gmail.com
+ * 
+ * LICENSE: WilliamJardim/Visualization © 2024 by William Alves Jardim is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/**
+*/
+
+.grafico{
+	width: 98% !important;
+    height: auto;
+    border: solid 1px black;
+    padding: 9px;
+    border-radius: 16px;
+    margin-top: 5px;
+    margin-bottom: 40pt;
+    margin-left: 5px;
+    margin-right: 0px;
+    background-color: #2b82a1;
+    -webkit-box-shadow: 2px 3px 16px 1px rgba(0,0,0,0.74);
+    -moz-box-shadow: 2px 3px 16px 1px rgba(0,0,0,0.74);
+    box-shadow: 2px 3px 16px 1px rgba(0,0,0,0.74);
+}
+
+.grafico:hover{
+    background-color: #1d94b8;
+}
+
+div.cabecalho-grafico{
+    height: auto !important;
+    margin-top: -20px !important;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+div.dados-grafico{
+    height: auto !important;
+    margin-top: -25px !important;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 8px;
+}
+
+h2.h2-titulo-grafico{
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 1px 3px 20px black;
+    text-align: center;
+    font-size: 22pt;
+    font-family: sans-serif;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p.p-descricao-grafico{
+    color: #FFFFFF;
+    text-shadow: 1px 3px 20px black;
+    text-align: center;
+    font-size: 18pt;
+    margin-top: -25px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grafico .linha-grafico{
+    width: 100%;
+    font-size: 20pt;
+    border: none;
+    font-family: 'Arial';
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(223, 224, 220, 0.2);
+}
+
+.linha-grafico p{
+    border: none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.grafico .linha-grafico .label-linha-grafico{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    text-shadow: 1px 3px 20px black;
+}
+
+.grafico .linha-grafico .estagio{
+    background-color: darkred;
+    width: 10px;
+    border: solid 1px black;
+    border-radius: 5px;
+    float: left;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grafico .grafico-rodape{
+    width: 100% !important;
+    height: auto !important;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grafico-escalas-div{
+    margin-top: 40px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grafico-rodape .grafico-escala{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 50px;
+    height: 28px;
+    border: solid 1px black;
+    border-radius: 5px;
+    float: left;
+    font-size: 15pt;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grafico-escala-inicio, .grafico-escala-meio, .grafico-escala-fim{
+    background-color: #81bd80 !important;
+    font-weight: bolder;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.grafico-rodape .grafico-escala:hover{
+    width: 60px;
+    height: 30px;
+    transition: 1s;
+    background-color: #81bd80 !important;
+}
+
+.dados-grafico table{
+    width: 100%;
+}
+
+.dados-grafico td{
+    width: 100%;
+}
+
+.dados-grafico tr{
+    width: 100%;
+    height: 32px !important;
+}
+
+.dados-grafico .displayValor{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    float: left;
+    margin-left: 12px;
+}
+
+/*Outros graficos*/
+.grafico-wrap{
+    display: block;
+    width: auto;
+    height: auto;
+    border: solid 1px black;
+    padding: 9px;
+    border-radius: 16px;
+    margin-top: 5px;
+    margin-bottom: 40pt;
+    margin-left: 5px;
+    margin-right: 0px;
+    background-color: #2b82a1;
+    -webkit-box-shadow: 2px 3px 16px 1px rgba(0,0,0,0.74);
+    -moz-box-shadow: 2px 3px 16px 1px rgba(0,0,0,0.74);
+    box-shadow: 2px 3px 16px 1px rgba(0,0,0,0.74);
+}
+
+.grafico-wrap .grafico-content{
+    width: auto;
+    height: auto;
+    display: block;
+    position: relative;
+    margin-top: 30pt;
+    margin-bottom: 10pt;
+    margin-left: 10%;
+    margin-right: 0px;
+}
+
+.grafico-wrap .grafico-content h2.h2-titulo-grafico{
+
+}
+
+.grafico-wrap .grafico-content canvas{
+    position: relative;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    border: solid 1px black;
+}
+
+.grafico-wrap .grafico-wrap-cabecalho{
+    position: relative;
+    width: auto;
+    height: 25pt;
+}
